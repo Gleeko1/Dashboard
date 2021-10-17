@@ -3,8 +3,9 @@
       <img src="https://img.icons8.com/color/48/000000/dashboard-layout.png" width="30" height="30" class="d-inline-block align-top" alt="">
       Dashboard
     </a>
-    <div class="form-inline m-1">
-        <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/60/000000/external-user-internet-security-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png" width="30" height="30" class="d-inline-block align-top" alt=""/>  
+    <div class="form-inline m-1 d-flex">
+        <h6 class="text-white m-1"> {{user.login?.username}} </h6>
+        <img src="{{user.picture?.thumbnail}}" width="30" height="30" class="d-inline-block align-top" alt=""/>  
     </div>
     
   </nav>
