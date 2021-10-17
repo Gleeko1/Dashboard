@@ -1,6 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Result } from '../shared/models/user.interface';
-
+import { Result } from 'src/app/shared/models/user.interface';
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',

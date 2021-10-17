@@ -1,7 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
-import { Info, Name, Result, RootObject } from '../shared/models/user.interface';
-import { UserService } from '../shared/services/user.service';
+import { Result } from 'src/app/shared/models/user.interface';
+import { UserService } from '../../shared/services/user.service';
 
 @Component({
   selector: 'app-user-info',
