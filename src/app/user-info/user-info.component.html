@@ -1,0 +1,14 @@
+<div class="card" >
+    <div class="card-body">
+      <div class="d-flex justify-content-between">
+        <h5 class="card-title">Welcome  {{user.name?.first}} </h5>
+        <img class="img-circle" src="{{ user.picture?.medium }}" alt="Card image cap">
+      </div>
+        <p class="card-text"> Full Name: {{user.name?.first }} {{ user.name?.last}}
+          <br>
+         Email: {{user.email}}
+         <br>
+         City: {{user.location?.city}}</p>
+      <button type="button" class="btn btn-primary" (click)="reload()">Change User</button>
+    </div>
+  </div>
